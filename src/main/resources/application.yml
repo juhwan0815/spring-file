@@ -16,18 +16,18 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     properties:
       hibernate:
-        #        show_sql: true
+#        show_sql: true
         format_sql: true
         use_sql_comments: true
 
 cloud:
   aws:
     credentials:
-      accessKey: AKIAVAXVF5PW4UMXQV6J
-      secretKey: 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
+      accessKey: IAM 액세스 키
+      secretKey: IAM 시크릿 키
     s3:
       bucket: shareu-file
     region:
